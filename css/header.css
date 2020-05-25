@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+.header {
+    height: 90px;
+    width: 100%;
+    background-color: rgb(59, 59, 230);
+   
+}
+
+.header .logo {
+    padding-top: 30px;
+    padding-left: 100px;
+    display: inline-block;
+   
+}
+
+.header a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-size: 20px;
+}
+
+.header a:hover {
+    font-size: larger;
+    color: rgb(179, 231, 35);
+}
+
+.header .white {
+    color: rgb(45, 45, 211);
+    background-color: white;
+    font-weight: bold;
+    border-radius: 2px;
+    border: 1px rgb(92, 92, 92) solid;
+}
+
+
+.header .option{
+    padding-top: 30px;
+    display: inline-block;
+   justify-content: center;
+    
+}
+
+.option #laptop-cate {
+  
+    border-radius: 5px;
+}
+
+.search-bar {
+    padding-top: 30px;
+    display: inline-block;
+    
+}
+
+.search {
+    
+   
+}
+
+.search input {
+   
+    border-radius: 5px;
+}
+
+.giohang {
+    padding-top: 30px;
+    text-align: right;
+    display: inline-block;
+    color: white;
+    
+}
