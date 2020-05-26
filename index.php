@@ -42,17 +42,18 @@
                 <br></div>
                 <div class="product row">
                     
-                    <?php 
+                <?php 
                         $sp = mysqli_fetch_array($sql, MYSQLI_ASSOC);
                         echo "<div class=\"col-lg-4\">
                         <a href=\"product_page.php?id={$sp['LaptopCode']}\">
                             <figure>
                                 <img src=\"image/{$sp['ImageCode']}\" alt=\"\" class=\"img-fluid\">
-                                <div class=\"p-status\">new</div>
+                                <h5>{$sp['LaptopName']}</h5>
                             </figure>
+                            {$sp['Price']}<br>
+                            <button class=\"btn btn-success\" >MUA HÀNG ONLINE</button>
                         </a> 
-                        {$sp['Price']}<br>
-                        <button class=\"btn btn-success\" >MUA HÀNG ONLINE</button>
+                        
                     </div>"
                     ?>
                     
@@ -62,11 +63,27 @@
                         <a href=\"product_page.php?id={$sp['LaptopCode']}\">
                             <figure>
                                 <img src=\"image/{$sp['ImageCode']}\" alt=\"\" class=\"img-fluid\">
-                                <div class=\"p-status\">new</div>
+                                <h5>{$sp['LaptopName']}</h5>
                             </figure>
+                            {$sp['Price']}<br>
+                            <button class=\"btn btn-success\" >MUA HÀNG ONLINE</button>
                         </a> 
-                        {$sp['Price']}<br>
-                        <button class=\"btn btn-success\" >MUA HÀNG ONLINE</button>
+                        
+                    </div>"
+                    ?>
+
+                    <?php 
+                        $sp = mysqli_fetch_array($sql, MYSQLI_ASSOC);
+                        echo "<div class=\"col-lg-4\">
+                        <a href=\"product_page.php?id={$sp['LaptopCode']}\">
+                            <figure>
+                                <img src=\"image/{$sp['ImageCode']}\" alt=\"\" class=\"img-fluid\">
+                                <h5>{$sp['LaptopName']}</h5>
+                            </figure>
+                            {$sp['Price']}<br>
+                            <button class=\"btn btn-success\" >MUA HÀNG ONLINE</button>
+                        </a> 
+                        
                     </div>"
                     ?>
                     <?php 
@@ -75,11 +92,27 @@
                         <a href=\"product_page.php?id={$sp['LaptopCode']}\">
                             <figure>
                                 <img src=\"image/{$sp['ImageCode']}\" alt=\"\" class=\"img-fluid\">
-                                <div class=\"p-status\">new</div>
+                                <h5>{$sp['LaptopName']}</h5>
                             </figure>
+                            {$sp['Price']}<br>
+                            <button class=\"btn btn-success\" >MUA HÀNG ONLINE</button>
                         </a> 
-                        {$sp['Price']}<br>
-                        <button class=\"btn btn-success\">MUA HÀNG ONLINE</button>
+                        
+                    </div>"
+                    ?>
+
+                    <?php 
+                        $sp = mysqli_fetch_array($sql, MYSQLI_ASSOC);
+                        echo "<div class=\"col-lg-4\">
+                        <a href=\"product_page.php?id={$sp['LaptopCode']}\">
+                            <figure>
+                                <img src=\"image/{$sp['ImageCode']}\" alt=\"\" class=\"img-fluid\">
+                                <h5>{$sp['LaptopName']}</h5>
+                            </figure>
+                            {$sp['Price']}<br>
+                            <button class=\"btn btn-success\" >MUA HÀNG ONLINE</button>
+                        </a> 
+                        
                     </div>"
                     ?>
                     <?php 
@@ -88,37 +121,12 @@
                         <a href=\"product_page.php?id={$sp['LaptopCode']}\">
                             <figure>
                                 <img src=\"image/{$sp['ImageCode']}\" alt=\"\" class=\"img-fluid\">
-                                <div class=\"p-status\">new</div>
+                                <h5>{$sp['LaptopName']}</h5>
                             </figure>
+                            {$sp['Price']}<br>
+                            <button class=\"btn btn-success\" >MUA HÀNG ONLINE</button>
                         </a> 
-                        {$sp['Price']}<br>
-                        <button class=\"btn btn-success\">MUA HÀNG ONLINE</button>
-                    </div>"
-                    ?>
-                    <?php 
-                        $sp = mysqli_fetch_array($sql, MYSQLI_ASSOC);
-                        echo "<div class=\"col-lg-4\">
-                        <a href=\"product_page.php?id={$sp['LaptopCode']}\">
-                            <figure>
-                                <img src=\"image/{$sp['ImageCode']}\" alt=\"\" class=\"img-fluid\">
-                                <div class=\"p-status\">new</div>
-                            </figure>
-                        </a> 
-                        {$sp['Price']}<br>
-                        <button class=\"btn btn-success\">MUA HÀNG ONLINE</button>
-                    </div>"
-                    ?>
-                    <?php 
-                        $sp = mysqli_fetch_array($sql, MYSQLI_ASSOC);
-                        echo "<div class=\"col-lg-4\">
-                        <a href=\"product_page.php?id={$sp['LaptopCode']}\">
-                            <figure>
-                                <img src=\"image/{$sp['ImageCode']}\" alt=\"\" class=\"img-fluid\">
-                                <div class=\"p-status\">new</div>
-                            </figure>
-                        </a> 
-                        {$sp['Price']}<br>
-                        <button class=\"btn btn-success\">MUA HÀNG ONLINE</button>
+                        
                     </div>"
                     ?>
                     
@@ -140,64 +148,40 @@
                         <a href=\"product_page.php?id={$sp['LaptopCode']}\">
                             <figure>
                                 <img src=\"image/{$sp['ImageCode']}\" alt=\"\" class=\"img-fluid\">
-                                <div class=\"p-status\">new</div>
+                                <h5>{$sp['LaptopName']}</h5>
                             </figure>
+                            {$sp['Price']}<br>
+                            <button class=\"btn btn-success\" >MUA HÀNG ONLINE</button>
                         </a> 
-                        {$sp['Price']}<br>
-                        <button class=\"btn btn-success\">MUA HÀNG ONLINE</button>
+                        
                     </div>"
                     ?>
-                    <?php 
+                     <?php 
                         $sp = mysqli_fetch_array($sql, MYSQLI_ASSOC);
                         echo "<div class=\"col-lg-4\">
                         <a href=\"product_page.php?id={$sp['LaptopCode']}\">
                             <figure>
                                 <img src=\"image/{$sp['ImageCode']}\" alt=\"\" class=\"img-fluid\">
-                                <div class=\"p-status\">new</div>
+                                <h5>{$sp['LaptopName']}</h5>
                             </figure>
+                            {$sp['Price']}<br>
+                            <button class=\"btn btn-success\" >MUA HÀNG ONLINE</button>
                         </a> 
-                        {$sp['Price']}<br>
-                        <button class=\"btn btn-success\">MUA HÀNG ONLINE</button>
+                        
                     </div>"
                     ?>
-                    <?php 
+                     <?php 
                         $sp = mysqli_fetch_array($sql, MYSQLI_ASSOC);
                         echo "<div class=\"col-lg-4\">
                         <a href=\"product_page.php?id={$sp['LaptopCode']}\">
                             <figure>
                                 <img src=\"image/{$sp['ImageCode']}\" alt=\"\" class=\"img-fluid\">
-                                <div class=\"p-status\">new</div>
+                                <h5>{$sp['LaptopName']}</h5>
                             </figure>
+                            {$sp['Price']}<br>
+                            <button class=\"btn btn-success\" >MUA HÀNG ONLINE</button>
                         </a> 
-                        {$sp['Price']}<br>
-                        <button class=\"btn btn-success\">MUA HÀNG ONLINE</button>
-                    </div>"
-                    ?>
-                    
-                    <?php 
-                        $sp = mysqli_fetch_array($sql, MYSQLI_ASSOC);
-                        echo "<div class=\"col-lg-4\">
-                        <a href=\"product_page.php?id={$sp['LaptopCode']}\">
-                            <figure>
-                                <img src=\"image/{$sp['ImageCode']}\" alt=\"\" class=\"img-fluid\">
-                                <div class=\"p-status\">new</div>
-                            </figure>
-                        </a> 
-                        {$sp['Price']}<br>
-                        <button class=\"btn btn-success\">MUA HÀNG ONLINE</button>
-                    </div>"
-                    ?>
-                    <?php 
-                        $sp = mysqli_fetch_array($sql, MYSQLI_ASSOC);
-                        echo "<div class=\"col-lg-4\">
-                        <a href=\"product_page.php?id={$sp['LaptopCode']}\">
-                            <figure>
-                                <img src=\"image/{$sp['ImageCode']}\" alt=\"\" class=\"img-fluid\">
-                                <div class=\"p-status\">new</div>
-                            </figure>
-                        </a> 
-                        {$sp['Price']}<br>
-                        <button class=\"btn btn-success\">MUA HÀNG ONLINE</button>
+                        
                     </div>"
                     ?>
                     
@@ -207,11 +191,41 @@
                         <a href=\"product_page.php?id={$sp['LaptopCode']}\">
                             <figure>
                                 <img src=\"image/{$sp['ImageCode']}\" alt=\"\" class=\"img-fluid\">
-                                <div class=\"p-status\">new</div>
+                                <h5>{$sp['LaptopName']}</h5>
                             </figure>
+                            {$sp['Price']}<br>
+                            <button class=\"btn btn-success\" >MUA HÀNG ONLINE</button>
                         </a> 
-                        {$sp['Price']}<br>
-                        <button class=\"btn btn-success\">MUA HÀNG ONLINE</button>
+                        
+                    </div>"
+                    ?>
+                     <?php 
+                        $sp = mysqli_fetch_array($sql, MYSQLI_ASSOC);
+                        echo "<div class=\"col-lg-4\">
+                        <a href=\"product_page.php?id={$sp['LaptopCode']}\">
+                            <figure>
+                                <img src=\"image/{$sp['ImageCode']}\" alt=\"\" class=\"img-fluid\">
+                                <h5>{$sp['LaptopName']}</h5>
+                            </figure>
+                            {$sp['Price']}<br>
+                            <button class=\"btn btn-success\" >MUA HÀNG ONLINE</button>
+                        </a> 
+                        
+                    </div>"
+                    ?>
+                    
+                    <?php 
+                        $sp = mysqli_fetch_array($sql, MYSQLI_ASSOC);
+                        echo "<div class=\"col-lg-4\">
+                        <a href=\"product_page.php?id={$sp['LaptopCode']}\">
+                            <figure>
+                                <img src=\"image/{$sp['ImageCode']}\" alt=\"\" class=\"img-fluid\">
+                                <h5>{$sp['LaptopName']}</h5>
+                            </figure>
+                            {$sp['Price']}<br>
+                            <button class=\"btn btn-success\" >MUA HÀNG ONLINE</button>
+                        </a> 
+                        
                     </div>"
                     ?>
                     

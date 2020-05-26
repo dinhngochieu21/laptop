@@ -1,4 +1,4 @@
-<?php session_start() ?>        
+      
 <div class="header row">
     
             <div class="logo col-md-3">

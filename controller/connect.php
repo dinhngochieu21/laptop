@@ -1,3 +1,3 @@
 <?php
-    $con = mysqli_connect('remotemysql.com:3306','p4rP7RYQew','mBgU0wDM99','p4rP7RYQew') or die('Unable To connect');
+$con = mysqli_connect('db4free.net:3306','hieu21','hieuhieu21','my_sql') or die('Unable To connect');
 ?>

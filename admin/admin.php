@@ -63,7 +63,7 @@
                 <td><?php echo $row['Price']; ?></td>
                 <td><?php echo $row['LaptopInfomation']; ?></td>
                 <td>
-                    <a href="delete.php?LaptopCode=<?php echo $row['LaptopCode']; ?>" class="delete">xóa</a>
+                    <a href="control/delete.php?LaptopCode=<?php echo $row['LaptopCode']; ?>" class="delete">xóa</a>
                 </td>
             </tr>
         <?php endwhile; ?>
