@@ -152,6 +152,8 @@ a {
     clear: both;
 }
 
+
+
 .y .tintuc {
     background-color: blue;
     color: white;
@@ -210,10 +212,21 @@ a {
 }
 
 .footer {
-    background-image: url(image/snow.jpg);
+    background-color: rgb(67, 45, 45);
     width: 100%;
     background-size: cover;
     height: 200px;
+    color: white;
+}
+
+.footer .left {
+    width: 25%;
+    float: left;
+}
+
+.footer .right {
+    width: 25%;
+    float: left;
 }
 
 .giohang a{

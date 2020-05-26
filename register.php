@@ -21,7 +21,7 @@
     ?>
     
     
-    <?php include('quick_layout\header.php'); ?>
+    <?php include('quick_layout\header.php') ?>
     
     <!-- Header End -->
 

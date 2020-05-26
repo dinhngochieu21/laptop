@@ -1,0 +1,71 @@
+<html>
+<head>
+    <title>Trang admin</title>
+    <meta charset="utf-8">
+    <style>
+        table tr td {
+            border-bottom: 2px solid #ccc;
+            padding-left: 15px;
+            padding-right: 15px;
+            margin-top: 5px;
+        }
+
+        a {
+            text-decoration:none;
+            color: black;
+        }
+
+        body {
+           
+            padding-left: 250px;
+            padding-top: 100px;
+        }
+        td img {
+            width:40px;
+            height:30px;
+        }
+    </style>
+</head>
+<body>
+
+<?php
+    require('../controller/connect.php');
+
+    // query students table
+    $sql = 'SELECT * FROM `orderdetails` GROUP BY LaptopCode ORDER BY LaptopCode';
+
+    $x = mysqli_query($con, $sql);
+
+    if(!$x) {
+        die('Query error: [' . $db->error . ']');
+    }
+        
+       
+?>
+<table>
+    <thead>
+        <tr>
+        
+            <th>LaptopCode</th>
+            
+            <th>quantityOrdered</th>
+           
+            <th>totalPayment</th>
+        </tr>
+    </thead>
+    <tbody>
+        <?php while ($row = mysqli_fetch_array($x, MYSQLI_ASSOC)) : ?>
+            <tr>
+        
+                <td><?php echo $row['LaptopCode']; ?></td>
+               
+                <td><?php echo $row['quantityOrdered']; ?></td>
+                
+                <td><?php echo $row['totalPayment']; ?></td>
+                
+            </tr>
+        <?php endwhile; ?>
+    </tbody>
+</table>
+</body>
+</html>
