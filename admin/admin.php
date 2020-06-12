@@ -2,13 +2,10 @@
 <head>
     <title>Trang admin</title>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
     <style>
-        table tr td {
-            border-bottom: 2px solid #ccc;
-            padding-left: 15px;
-            padding-right: 15px;
-            margin-top: 5px;
-        }
+        
 
         a {
             text-decoration:none;
@@ -17,13 +14,10 @@
 
         body {
            
-            padding-left: 250px;
-            padding-top: 100px;
+            padding-left: 50px;
+            padding-top: 10px;
         }
-        td img {
-            width:40px;
-            height:30px;
-        }
+        
     </style>
 </head>
 <body>
@@ -40,9 +34,11 @@
         die('Query error: [' . $db->error . ']');
     }
         
-       
+    require('header.php');   
 ?>
-<table>
+
+
+<table class="table">
     <thead>
         <tr>
         
