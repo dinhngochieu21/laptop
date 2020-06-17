@@ -65,9 +65,9 @@
                 <td><?php echo $row['customerName']; ?></td>
                 <td><?php echo $row['customerAddress']; ?></td>
                 <td><?php echo $row['customerPhone']; ?></td>
-                <td>
+                <!-- <td>
                     <a href="control/delete.php?LaptopCode=<?php echo $row['LaptopCode']; ?>" class="delete">xóa</a>
-                </td>
+                </td> -->
             </tr>
         <?php endwhile; ?>
     </tbody>
